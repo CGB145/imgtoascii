@@ -1,0 +1,1 @@
+FlatMap<std::vec::IntoIter<Rgb<u16>>, std::array::IntoIter<u16, 3>, {closure@src/main.rs:90:89: 90:92}>

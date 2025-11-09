@@ -1,0 +1,10 @@
+/home/cgb/Documents/imgtoascii/target/debug/deps/imgref-7062d66aa5718cb1.d: /home/cgb/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/imgref-1.12.0/src/lib.rs /home/cgb/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/imgref-1.12.0/src/traits.rs /home/cgb/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/imgref-1.12.0/src/iter.rs /home/cgb/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/imgref-1.12.0/src/ops.rs
+
+/home/cgb/Documents/imgtoascii/target/debug/deps/libimgref-7062d66aa5718cb1.rlib: /home/cgb/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/imgref-1.12.0/src/lib.rs /home/cgb/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/imgref-1.12.0/src/traits.rs /home/cgb/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/imgref-1.12.0/src/iter.rs /home/cgb/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/imgref-1.12.0/src/ops.rs
+
+/home/cgb/Documents/imgtoascii/target/debug/deps/libimgref-7062d66aa5718cb1.rmeta: /home/cgb/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/imgref-1.12.0/src/lib.rs /home/cgb/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/imgref-1.12.0/src/traits.rs /home/cgb/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/imgref-1.12.0/src/iter.rs /home/cgb/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/imgref-1.12.0/src/ops.rs
+
+/home/cgb/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/imgref-1.12.0/src/lib.rs:
+/home/cgb/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/imgref-1.12.0/src/traits.rs:
+/home/cgb/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/imgref-1.12.0/src/iter.rs:
+/home/cgb/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/imgref-1.12.0/src/ops.rs:
