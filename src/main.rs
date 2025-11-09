@@ -1,7 +1,7 @@
 use image::{DynamicImage, GenericImageView, ImageBuffer, ImageEncoder, ImageReader, Pixel, Pixels, Rgb, RgbImage, Rgba, imageops::FilterType::Nearest};
 use colored::{self, Colorize};
 fn main() {
-    let img_path: String =String::from("myimage.png");
+    let img_path: String =String::from("myimage.jpg");
     let img = match ImageReader::open(img_path){
         Ok(img_r) =>{
             match img_r.decode(){
@@ -106,7 +106,7 @@ fn main() {
 
 
     println!("{}",ascii);
-    println!("{}", width);
+    //println!("{}", width);
 
 
 
