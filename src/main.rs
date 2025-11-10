@@ -1,7 +1,16 @@
 use image::{ GenericImageView, ImageReader, Pixel, imageops::FilterType::Nearest};
 use colored::{self, Colorize};
+use std::env;
+
 fn main() {
-    let img_path: String =String::from("myimage.jpg");
+    let args: Vec<String> = env::args().collect();
+
+    if args.len() != 4 {
+        eprintln!("Usage: {} <image_path> <width> <height>", args[0]);
+        std::process::exit(1);
+    }
+
+    let img_path = &args[1];
 
     let img = match ImageReader::open(img_path){
         Ok(img_r) =>{
@@ -20,8 +29,8 @@ fn main() {
     };
 
 
-    let width: u32 = 300;
-    let height: u32 = 300;
+    let width: u32 = args[2].parse().expect("Width must be a valid u32");
+    let height: u32 = args[3].parse().expect("Height must be a valid u32");
     let img_resized = img.resize_exact(width, height,Nearest);
 
     let rgb: Vec<_>  = img_resized.pixels().map(
